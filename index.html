@@ -1,0 +1,19 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="css/styles.css"> 
+        <script type="text/javascript">(function titleScroller(text) {
+            document.title = text;
+            setTimeout(function () {
+                titleScroller(text.substr(1) + text.substr(0, 1));
+            }, 500);
+        }(" Coming Soon... "));</script>
+
+    </head>
+
+    <body>
+        <div class="title">
+        <p>COMING SOON...</p>
+    </div>
+    </body>
+
+</html>
